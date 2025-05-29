@@ -1,0 +1,12 @@
+/* CategoryListingPage.module.css */
+.container {
+  padding: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Add your styles here */

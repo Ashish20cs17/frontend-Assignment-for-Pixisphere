@@ -1,0 +1,85 @@
+/* src/PhotographerProfilePage.css */
+.profile-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+    background-color: rgb(234 195 227);
+}
+
+.back-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.not-found {
+  color: #555;
+  font-size: 18px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  flex: 1;
+  min-width: 280px;
+}
+
+.profile-details h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-details {
+    text-align: left;
+    width: 100%;
+  }
+
+  .back-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
