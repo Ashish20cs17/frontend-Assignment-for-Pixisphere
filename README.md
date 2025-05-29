@@ -13,6 +13,14 @@ A simple React project displaying a list of photographers fetched from a mock RE
 [https://github.com/Ashish20cs17/frontend-Assignment-for-Pixisphere](https://github.com/Ashish20cs17/frontend-Assignment-for-Pixisphere)
 
 ---
+## Screenshots
+
+### Home Page
+![Home Page](./home.png)
+
+### Profile Page
+![Profile Page](./profile.png)
+
 
 ## Features
 
