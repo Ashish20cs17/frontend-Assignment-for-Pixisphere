@@ -55,3 +55,11 @@ Start the React development server:
 
 npm start
 The React app will run on http://localhost:3000 and the JSON Server API will be available at http://localhost:3001/photographers.
+
+
+## Filtering, Debounce & Logic
+
+- **Filtering:** Multi-criteria filters (price, rating, styles, city) update results dynamically.  
+- **Debounce:** Search input uses debounce (~300ms) to reduce unnecessary re-renders.  
+- **Logic:** Data fetched once from API; filtering and sorting done client-side; pagination loads more results; profile page shows detailed info.
+
